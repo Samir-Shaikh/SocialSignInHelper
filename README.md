@@ -25,18 +25,17 @@ Steps for google sign in
 
  - lets use it 
 
-	//login
-	```
-	GoogleSignInHelper.shared.googleSignIn(with: self) { (model) in
+###### //login
+```
+GoogleSignInHelper.shared.googleSignIn(with: self) { (model) in
             
-    		print(model)
-  	   } 
-	```
-
-  //logout
-	``` 
-	GoogleSignInHelper.shared.googleLogout() 
-	```
+    print(model)
+ } 
+```
+###### //logout
+``` 
+GoogleSignInHelper.shared.googleLogout() 
+```
   
   -----------------------------------------------------------------------------------------------
   
@@ -65,17 +64,16 @@ Steps for google sign in
 
  - lets use it 
 
-	//login
-	```
-	FacebookSignInHelper.shared.facebookSignIn(with: self) { (model) in
-       
-     		print(model)
-  	}
-	```
-
-  //logout
+###### //login
 ```
-	FacebookSignInHelper.shared.facebookLogout()
+FacebookSignInHelper.shared.facebookSignIn(with: self) { (model) in
+       
+     print(model)
+}
+```
+###### //logout
+```
+FacebookSignInHelper.shared.facebookLogout()
 ```
 	
 # Author
