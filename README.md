@@ -15,8 +15,8 @@ Steps for google sign in
               E.g 
               424186683852-daqf2lnctr9rf5fnr13d49en7hsi29d0.apps.googleusercontent.com
 
-              Then add it like 
-		com.googleusercontent.apps.424186683852-daqf2lnctr9rf5fnr13d49en7hsi29d0
+             Then add it like 
+		> com.googleusercontent.apps.424186683852-daqf2lnctr9rf5fnr13d49en7hsi29d0
 
 
  - that’s it we are done with configuration
@@ -25,13 +25,13 @@ Steps for google sign in
  - lets use it 
 
 	//login
-	GoogleSignInHelper.shared.googleSignIn(with: self) { (model) in
+	```GoogleSignInHelper.shared.googleSignIn(with: self) { (model) in
             
-    print(model)
-  }
+    		print(model)
+  	   }```
 
   //logout
-	GoogleSignInHelper.shared.googleLogout()
+	``` GoogleSignInHelper.shared.googleLogout() ```
   
   -----------------------------------------------------------------------------------------------
   
