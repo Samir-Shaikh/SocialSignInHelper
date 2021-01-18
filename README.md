@@ -68,3 +68,7 @@ Steps for google sign in
 
   //logout
 	FacebookSignInHelper.shared.facebookLogout()
+	
+# Author
+
+Samir Shaikh samir.shaikh0620@gmail.com
